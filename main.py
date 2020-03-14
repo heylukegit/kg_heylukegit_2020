@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 # @Time    : 3/14/20 17:29
 # @Author  : Luke
-# @Contact : mh3994@columbia.edu
 # @File    : main.py
 # @Software: PyCharm
 import sys
