@@ -4,9 +4,7 @@
 # @Contact : mh3994@columbia.edu
 # @File    : main.py
 # @Software: PyCharm
-
 import sys
-
 
 def isOneToOneMappingExists(s1, s2):
     """
@@ -46,7 +44,6 @@ def test():
 
 
 if __name__ == "__main__":
-    # test()
 
     # read the strings from sys.argv
     s1 = sys.argv[1]
