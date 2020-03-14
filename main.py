@@ -33,6 +33,7 @@ def isOneToOneMappingExists(s1, s2):
         return False
 
 def test():
+    print("Running some test files...")
     print(isOneToOneMappingExists("abc", "bcd"))
     print(isOneToOneMappingExists("foo", "bar"))
     print(isOneToOneMappingExists("bar", "foo"))
@@ -45,9 +46,16 @@ def test():
 if __name__ == "__main__":
     # test()
 
-    tmp = sys.argv
+    s1 = sys.argv[1]
+    s2 = sys.argv[2]
 
-    print(tmp)
+    if isOneToOneMappingExists(s1, s2):
+        print("true")
+    else:
+        print("false")
+
+
+
 
 
 
